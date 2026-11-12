@@ -4,7 +4,7 @@ Cinco ejercicios pequeños, uno por tema: **8 + 10 + 10 + 12 + 15 minutos**, má
 
 ## Antes de escribir código
 
-Copia las carpetas `s07lab00` a `s07lab04` a una raíz de código de tu proyecto personal. Si usas `src`, por ejemplo, `Lavadora.java` debe quedar en `src/s07lab00/` y conservar `package s07lab00;`. Copia todos los archivos de cada lab y ejecuta su archivo terminado en `Main`.
+Copia las carpetas `s07lab00` a `s07lab04` a una raíz de código de tu proyecto personal. Si usas `src`, por ejemplo, `Lavadora.java` debe quedar en `src/s07lab00/` y conservar `package s07lab00;`. Copia todos los archivos de cada lab y ejecuta su archivo terminado en `ConexionFactory`.
 
 Resuelve cada TODO donde está ubicado: declaración de clase, constructor, método o Main. Conserva nombres y firmas. Reemplaza los retornos provisionales sin dejar instrucciones inalcanzables. Las plantillas compilan inicialmente, pero aún no producen los resultados esperados. Al añadir una relación o un método abstracto debes completar los cambios asociados antes de volver a compilar.
 

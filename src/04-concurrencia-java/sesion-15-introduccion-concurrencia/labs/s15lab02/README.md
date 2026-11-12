@@ -1,4 +1,4 @@
-# Lab 02 · Certificados con Thread y Executor · 10 minutos
+~~# Lab 02 · Certificados con Thread y Executor · 10 minutos
 
 Debes preparar certificados de Ana, Luis y Sara. El código está completo; observarás cómo se asigna cada tarea y cambiarás el tamaño del pool.
 
@@ -30,4 +30,4 @@ Con el cambio a 1, las tres líneas del bloque Executor deben mencionar el mismo
 
 **No se exige copiar el orden de esta salida.** Comprueba cada certificado y los nombres de los trabajadores, no tiempos exactos ni cuál tarea termina primero.
 
-[Ver la comparación explicada](../../demo/s15demo02/README.md)
+[Ver la comparación explicada](../../demo/s15demo02/README.md)~~

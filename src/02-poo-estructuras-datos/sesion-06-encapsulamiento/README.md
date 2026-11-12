@@ -11,7 +11,7 @@ En el ejemplo inicial, “cualquiera” significa otro código con acceso al cam
 
 Actualiza el material con `git pull` y trabaja en tu proyecto personal de IntelliJ IDEA con JDK 21 o 17, sin Maven ni Gradle. Si conservas la organización por sesiones, marca `demo/` y `labs/` de esta sesión como **Sources Root**. Las carpetas de módulo y sesión con guiones organizan el curso; no son paquetes Java.
 
-Los demos 00 y 01 y cada lab tienen una clase de dominio y un archivo terminado en `Main` para ejecutar. Copia ambos archivos de cada actividad. En el demo 02 conserva las subcarpetas y sus declaraciones `package` bajo la raíz `demo/`; no marques cada paquete como otra raíz de código.
+Los demos 00 y 01 y cada lab tienen una clase de dominio y un archivo terminado en `ConexionFactory` para ejecutar. Copia ambos archivos de cada actividad. En el demo 02 conserva las subcarpetas y sus declaraciones `package` bajo la raíz `demo/`; no marques cada paquete como otra raíz de código.
 
 ## Conceptos esenciales
 

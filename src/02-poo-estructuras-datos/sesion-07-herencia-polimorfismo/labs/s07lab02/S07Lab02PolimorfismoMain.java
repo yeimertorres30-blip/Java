@@ -1,15 +1,20 @@
 package s07lab02;
 
+import java.util.SortedMap;
+
 public class S07Lab02PolimorfismoMain {
     public static void mostrarDuracion(ServicioTecnico servicio) {
         // TODO 3: Imprimir la duracion consultando servicio.duracionMinutos().
+        System.out.println(servicio.duracionMinutos());
     }
 
     public static void main(String[] args) {
         // TODO 4: Reemplazar null por objetos RevisionEquipo e InstalacionPrograma.
-        ServicioTecnico revision = null;
-        ServicioTecnico instalacion = null;
+        ServicioTecnico revision = new  RevisionEquipo();
+        ServicioTecnico instalacion = new  InstalacionPrograma();
+        System.out.print("Tiempo de la revision: ");
         mostrarDuracion(revision);
+        System.out.print("Tiempo de la instalacion: ");
         mostrarDuracion(instalacion);
     }
 }

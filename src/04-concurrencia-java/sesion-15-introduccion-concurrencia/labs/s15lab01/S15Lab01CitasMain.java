@@ -3,7 +3,8 @@ package s15lab01;
 public class S15Lab01CitasMain {
     public static void main(String[] args) throws InterruptedException {
         ejecutar("Consulta-A", false);
-        boolean cancelarSegunda = true;
+//        boolean cancelarSegunda = true;
+        boolean cancelarSegunda = false; // cambia la consulta de cancelada a completada
         ejecutar("Consulta-B", cancelarSegunda);
         System.out.println("Fin: consultas de citas terminadas");
     }

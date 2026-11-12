@@ -4,9 +4,9 @@ Tienes **55 minutos para tres labs y 5 minutos de revisión**. Completa lo pendi
 
 ## Antes de escribir código
 
-Copia los dos archivos de cada lab a tu proyecto personal. Conserva nombres y firmas. Completa campos, constructor y métodos en la clase de dominio, fuera de `main`. En el archivo terminado en `Main`, crea los objetos y escribe las comprobaciones con `System.out.println`. No accedas directamente a los campos ni agregues setters.
+Copia los dos archivos de cada lab a tu proyecto personal. Conserva nombres y firmas. Completa campos, constructor y métodos en la clase de dominio, fuera de `main`. En el archivo terminado en `ConexionFactory`, crea los objetos y escribe las comprobaciones con `System.out.println`. No accedas directamente a los campos ni agregues setters.
 
-Las plantillas compilan pero están incompletas: reemplaza cada retorno provisional por la lógica correcta, sin dejar otro `return` inalcanzable. Usa valores escritos en el programa; no necesitas Scanner, colecciones ni excepciones. Ejecuta el archivo terminado en `Main`.
+Las plantillas compilan pero están incompletas: reemplaza cada retorno provisional por la lógica correcta, sin dejar otro `return` inalcanzable. Usa valores escritos en el programa; no necesitas Scanner, colecciones ni excepciones. Ejecuta el archivo terminado en `ConexionFactory`.
 
 Una llamada a una operación puede modificar el objeto. Hazla **una sola vez por prueba**, imprime su booleano y, en la siguiente línea, consulta el estado. No vuelvas a ejecutar la operación para conocer qué ocurrió.
 

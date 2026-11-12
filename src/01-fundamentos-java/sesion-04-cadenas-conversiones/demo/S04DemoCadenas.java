@@ -2,6 +2,8 @@ public class S04DemoCadenas {
     public static void main(String[] args) {
         String original = "  Java  ";
         original.strip();
+        original = original.replace(" ", "");
+        System.out.println(original);
         System.out.println("Sin guardar resultado: [" + original + "]");
         String limpio = original.strip();
         System.out.println("Limpio: [" + limpio + "]");

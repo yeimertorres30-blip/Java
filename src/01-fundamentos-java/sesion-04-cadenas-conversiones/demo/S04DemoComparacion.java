@@ -6,6 +6,6 @@ public class S04DemoComparacion {
         System.out.println("Misma referencia: " + (primero == segundo));
         System.out.println("Mismo contenido: " + primero.equals(segundo));
         String opcion = " si ";
-        System.out.println("Confirma: " + opcion.strip().equalsIgnoreCase("SI"));
+        System.out.println("Confirma: " + opcion.strip().equalsIgnoreCase("SI")); // da true
     }
 }

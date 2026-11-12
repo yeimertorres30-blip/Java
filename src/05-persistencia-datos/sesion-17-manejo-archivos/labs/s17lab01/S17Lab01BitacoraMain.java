@@ -11,8 +11,15 @@ public class S17Lab01BitacoraMain {
     public static boolean registrar(Path archivo) throws IOException {
         Files.createDirectories(archivo.getParent());
         // TODO 1: Abrir BufferedWriter UTF-8 con CREATE y APPEND, en try-with-resources.
+        try (BufferedWriter writer = Files.newBufferedWriter(archivo, StandardCharsets.UTF_8, StandardOpenOption.CREATE, StandardOpenOption.APPEND)) { // Abre el archivo mantenimiento.txt y usamos el UTF-8 para que procese los caracteres especiales
         // TODO 2: Escribir las dos tareas indicadas, cada una seguida de newLine().
-        return false; // Sustituir por true solo despues del cierre correcto.
+            writer.write("Revisión eléctrica"); // escribe en una linea el texto que esta dentro de las ""
+            writer.newLine(); // es como si fuea un salto de linea
+            writer.write("Limpieza de área común");
+            writer.newLine();
+
+        }
+        return true; // Sustituir por true solo despues del cierre correcto.
     }
 
     public static void main(String[] args) throws IOException {

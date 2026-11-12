@@ -6,7 +6,7 @@
 
 Lee [ComprobantePrestamo.java](ComprobantePrestamo.java) → [GestorPrestamo.java](GestorPrestamo.java) → [ComprobantePrestamoFisico.java](ComprobantePrestamoFisico.java) → [ComprobantePrestamoDigital.java](ComprobantePrestamoDigital.java) → [GestorFisico.java](GestorFisico.java) → [GestorDigital.java](GestorDigital.java) y ejecuta [S12Lab00FactoryMethodMain.java](S12Lab00FactoryMethodMain.java). Copia todos los archivos del paquete s12lab00 bajo la raíz de código de tu proyecto personal.
 
-## Actividad paso a paso
+## Actividad paso a pasogit 
 
 Dos gestores registran préstamos y producen comprobantes distintos. Uno indica retiro físico y otro acceso digital. No hay catálogo, usuarios ni una plataforma real.
 

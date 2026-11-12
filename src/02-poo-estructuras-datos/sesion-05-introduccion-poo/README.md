@@ -40,7 +40,7 @@ Carro, moto, bicicleta y camión son valores del atributo `tipo` de objetos de u
 
 ## Demos para trabajar con el docente
 
-Los archivos con `01` pertenecen al primer demo y los de `02` al segundo. Primero lee la clase que define el comportamiento y después abre su archivo terminado en `Main`, que contiene el programa ejecutable.
+Los archivos con `01` pertenecen al primer demo y los de `02` al segundo. Primero lee la clase que define el comportamiento y después abre su archivo terminado en `ConexionFactory`, que contiene el programa ejecutable.
 
 | Orden | Archivo | Tema y acción |
 | --- | --- | --- |

@@ -13,12 +13,14 @@ public class S17Lab00BibliotecaMain {
         }
         Path carpeta = base.resolve(seccion);
         // TODO 1: Crear carpeta y padres mediante Files.createDirectories(carpeta).
+        Files.createDirectories(carpeta); // crea una carpeta
         Path archivo = carpeta.resolve("inventario.txt");
         try {
             if (Files.isDirectory(archivo)) {
                 throw new FileAlreadyExistsException(archivo.toString());
             }
             // TODO 2: Crear archivo sin reemplazar uno existente mediante Files.createFile.
+            Files.createFile(archivo); // Crea el archivo en la carpeta ya creada anteriormente
         } catch (FileAlreadyExistsException error) {
             if (!Files.isRegularFile(archivo)) {
                 throw new IOException("La ruta del inventario no es archivo: " + archivo, error);
@@ -26,7 +28,6 @@ public class S17Lab00BibliotecaMain {
         }
         return Files.isDirectory(carpeta) && Files.isRegularFile(archivo);
     }
-
     public static void main(String[] args) throws IOException {
         Path base = args.length == 0 ? Path.of(System.getProperty("java.io.tmpdir"), "campus-java-s17", "lab00") : Path.of(args[0]);
         base = base.toAbsolutePath().normalize();
